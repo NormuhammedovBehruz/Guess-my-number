@@ -11,7 +11,6 @@ let gameHighscore = 0
 let gameOver = false
 
 const randomNumber = Math.floor(Math.random() * 20) + 1
-console.log('COM NUMBER:', randomNumber)
 
 check.addEventListener('click', () => {
     const myNumber = +guess.value
